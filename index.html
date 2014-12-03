@@ -29,16 +29,16 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
 <body>
 <div class="reveal">
 <div class="slides">
-<section data-background-transition="slide">
+<section data-transition="zoom">
 <h1>BENVENUTI!</h1>
 <img src="images/maptime_roma_logo.png" border="0"/>
 </section>
-<section data-background-transition="slide">
+<section >
 <h2>
 Grazie alla<br> <a href="http://www.cittadellaltraeconomia.org/"> Citt&#224; dell'Altra Economia</a><br> che ospita questo evento!
 </h2>
 </section>
-<section data-background-transition="slide">
+<section>
 <h2>
 WI-FI: <br>
 PW: <br>
@@ -53,7 +53,7 @@ style="font-size:48px">http://maptime.io/roma/maptime-intro</a>
 </p>
 <a href="http://maptimeboston.github.io/maptime-intro">Questa presentazione &#233; derivata da Maptime Boston</a>
 </section>
-<section data-background-transition="cubic">
+<section>
 <h2>
 Programma:</h2>
 <p>
@@ -66,25 +66,25 @@ Programma:</h2>
 </ul>
 </p>
 </section>
-<section  data-background-transition="zoom">
+<section>
 <h2>
 Cos'&#233; Maptime?</h2>
 <ul>
-<li>un' occasione per imparare, a tutti i livelli</li>
-<li>Un progetto flessibile, perch&#233; può ospitare workshops, progetti personali e comunitari</li>
-<li>ma anche strutturato, perch&#233; parte di una rete di supporto internazionale</li>
-<li>un momento d'incontro per la comunità</li>
-<li> ma soprattutto...</li>
+<li class="fragment">un' occasione per imparare, a tutti i livelli</li>
+<li class="fragment">Un progetto flessibile, perch&#233; può ospitare workshops, progetti personali e comunitari</li>
+<li class="fragment">ma anche strutturato, perch&#233; parte di una rete di supporto internazionale</li>
+<li class="fragment">un momento d'incontro per la comunità</li>
+<li class="fragment"> ma soprattutto...</li>
 </ul>
 </p>
 </section>
-<section>
+<section data-transition="zoom">
 <h2>&#201; un momento per fare mappe!</h2>
 </section>
 <section>
 <h2>Cosa NON &#233; Maptime:</h2>
 <ul>
-<li>un luogo per sciorina tecnicismi</li>
+<li>un momento per SUPER-esperti</li>
 <li>una vetrina per dimostrazioni commerciali</li>
 <li>un momento per i litigi</li>
 <li>un modo per far lavorare GRATIS</li>
@@ -149,7 +149,7 @@ progress: true,
 history: true,
 center: true,
 theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
 // Parallax scrolling
 // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
 // parallaxBackgroundSize: '2100px 900px',
